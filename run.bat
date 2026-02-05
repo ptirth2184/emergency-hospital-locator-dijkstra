@@ -1,0 +1,9 @@
+@echo off
+echo 🚑 Starting Smart Emergency Hospital Locator...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Launching Streamlit application...
+streamlit run app.py
+pause
